@@ -39,6 +39,9 @@ function onOpenModal(projId) {
               <ul class="list-inline">
                 <li>Published at ${getDate(proj.publishedAt)}</li>
                 <li>Category: ${proj.lables}</li>
+              
+                <a id="link" href="${proj.url}" target="_blank" >Try It!</a>
+
               </ul>
               <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fa fa-times"></i>
