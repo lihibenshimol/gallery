@@ -8,14 +8,14 @@ p {
 }
 
 a {
-    color: #c2917d;
+    color: #a8a6a4;
 }
 
 a.active,
 a:active,
 a:focus,
 a:hover {
-    color: #c2917d;
+    color: #a8a6a4;
 }
 
 h1,
@@ -133,6 +133,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 
 @media (min-width: 575px) {
     .offcanvas-btn-open {
@@ -770,6 +771,7 @@ ul.social-buttons li a:hover {
     background-color: #DF9D87;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .btn-primary.focus,
